@@ -1,0 +1,206 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*margin-top: 500px;*/
+    padding: 0;
+    /*background-image: url('https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #69606e;
+}
+  
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+}
+
+.header-img {
+  width: 100vw;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header-img img{
+  width: 300px;
+
+}
+  
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /*background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+    width: 100%;
+    background: url(pngtree-noise-tv-glitch-gray-mosaic-texture-background-image_887667.jpg), linear-gradient(230.52deg, rgba(207, 213, 238, 0.8) -9.77%, rgba(246, 200, 200, 0.8) 157.92%);
+    mix-blend-mode: normal;
+}
+
+.header-left{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header p {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+  
+.avatar{
+  width: 100px;
+  height: 100px;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+nav {
+  width: 100%;
+  
+}
+
+nav ul {
+  display:flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+  
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 48px;
+  
+  
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+  main {
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    /*background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+
+div h2 {
+  justify-content: center;
+  height: auto
+  
+}
+
+h2 {
+  color: #69606e;
+  background: linear-gradient(264.46deg, #D39AF0 1.2%, #DBADB7 100%);
+  border-radius: 32px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#About p {
+text-align: center;
+}
+
+#Work {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-content li{
+  list-style: none;
+
+}
+.work-content p:first-child{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.work-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.work-1-img {
+  width: 300px;
+  height: 300px;
+
+}
+
+.work-1-img img{
+  width: 100%;
+}
+
+.work-1 li {
+  display: block;
+  width: 400px;
+  max-height: 200px;
+  text-align: right;
+  align-items: center;
+}
+
+.work-2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.work-2-img {
+  width: 300px;
+  height: 300px;
+
+}
+
+.work-2-img img{
+  width: 100%;
+}
+
+.work-2 li {
+  display: block;
+  width: 400px;
+  max-height: 200px;
+  text-align: left;
+  align-items: center;
+}
+
+.work-3 li p:last-child{
+  display: inline-block;
+  text-align: center;
+  width: 700px;
+}
